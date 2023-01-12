@@ -1,0 +1,10 @@
+# n = int(input())
+# l = list(map(int,input().split()))
+# max_1 = max(l)
+# l.remove(max_1)
+# print(max(l)*max_1)
+
+n = int(input())
+l = map(int,input().split())
+l.sort()
+print(l[n-1]*l[n-2])

@@ -1,0 +1,3 @@
+The dir() function returns all properties and methods of the specified object, without the values. 
+This function will return all the properties and methods.
+Even built-in properties which are default for all object.
